@@ -1,0 +1,23 @@
+{
+  "name": "rate-stars-component",
+  "version": "1.0.0",
+  "description": "Ratestars component",
+  "main": "gulpfile.js",
+  "bin": {
+    "rate-stars-component": "CompiledRateFormPage.js"
+  },
+  "dependencies": {
+    "gulp-closure-compiler": "^0.4.0",
+    "gulp": "^3.9.1",
+    "google-closure-compiler": "^20161024.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "Ratestars"
+  ],
+  "author": "Alexey Sokolnikov",
+  "license": "ISC"
+}

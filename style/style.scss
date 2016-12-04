@@ -1,0 +1,43 @@
+$stars: sprite-map("star/*.png");
+
+/* reset */
+html, body, form, input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.clear {
+    clear: both;
+}
+/* rate-form */
+.rate-form {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.rate-form_form-content-container {
+    direction: rtl;
+    float: left;
+}
+
+.rate-form__selection-item{
+    display: none;
+}
+
+.rate-form__selection-item-wrapper {
+    cursor: pointer;
+}
+
+.rate-form__selection-item-wrapper {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: sprite($stars, not-selected-star) no-repeat;
+}
+
+.rate-form__selection-item-wrapper_active,
+.rate-form__selection-item-wrapper_checked {
+    background: sprite($stars, selected-star) no-repeat;
+}
